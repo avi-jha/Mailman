@@ -17,3 +17,18 @@ A Django microservice for sending emails, SMS, WhatsApp, and push notifications 
 
 POST /api/send_email/
 
+```
+{
+"to": "recipient@example.com",
+"subject": "Welcome!",
+"template": "welcome",
+"params": {"name": "Recipient"}
+}
+```
+
+
+...
+
+## Contributing
+
+Pull requests and suggestions welcome!
